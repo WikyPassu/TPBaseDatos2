@@ -1,0 +1,29 @@
+{
+    "cuil": 20418253906,
+    "dni": 41825390,
+    "apellido": "Gomez",
+    "nombre": "Romina",
+    "fecha_nacimiento": "23/07/1996",
+    "telefono": 1157296698,
+    "localidad": {
+        "codigo_postal": 1832,
+        "descripcion": "Lomas de Zamora"
+    },
+    "domicilio": [
+        {
+            "calle": "Almafuerte",
+            "numero": "301",
+            "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
+            "depto": false,
+            "piso": "",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.411735,
+                    -34.754583
+                ]
+            }
+        }
+    ],
+    "fecha_incorporacion": "05/08/2019"
+}

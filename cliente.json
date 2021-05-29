@@ -1,0 +1,40 @@
+{
+    "numero_orden": 1000141234567,
+    "dni": 41234567,
+    "apellido": "Perez",
+    "nombre": "Juan",
+    "fecha_nacimiento": "23/07/1978",
+    "telefono": 1156783972,
+    "localidad": {
+        "codigo_postal": 1832,
+        "descripcion": "Lomas de Zamora"
+    },
+    "domicilio": [
+        {
+            "calle": "Gral. Frías",
+            "numero": "218",
+            "entre_calles": ["Av. Colombres", "Loria"],
+            "depto": false,
+            "piso": "",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.42203,
+                    -34.76019
+                ]
+            }
+        }
+    ],
+    "empleado": false,
+    "fecha_alta_servicio": "01/03/2021",
+    "planes": [
+        {
+            "codigo": 101,
+            "descripcion": "normal",
+            "cantidad_canales": 3,
+            "canales": ["Telefe", "Trece", "Volver"],
+            "fecha_adquisicion": "01/03/2021",
+            "vigente": true
+        }
+    ]
+}
