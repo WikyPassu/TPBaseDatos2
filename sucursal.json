@@ -1,46 +1,233 @@
-{
-    "descripcion": "servicio tecnico",
-    "direccion": {
-        "calle": "Av. Hipolito Yrigoyen",
-        "numero": "8929",
-        "entre_calles": ["Laprida", "Mariano Boedo"],
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -58.40266133373318,
-                -34.76012237923561
-            ]
-        }
-    },
-    "empleados": [
-        {
-            "cuil": 20418253906,
-            "dni": 41825390,
-            "apellido": "Gomez",
-            "nombre": "Romina",
-            "fecha_nacimiento": "23/07/1996",
-            "telefono": 1157296698,
-            "localidad": {
-                "codigo_postal": 1832,
-                "descripcion": "Lomas de Zamora"
-            },
-            "domicilio": [
-                {
-                    "calle": "Almafuerte",
-                    "numero": "301",
-                    "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
-                    "depto": false,
-                    "piso": "",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            -58.411735,
-                            -34.754583
-                        ]
+[
+    {
+        "descripcion": "servicio tecnico",
+        "direccion": {
+            "calle": "Av. Hipolito Yrigoyen",
+            "numero": "8929",
+            "entre_calles": ["Laprida", "Mariano Boedo"],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.402520,
+                    -34.759614
+                ]
+            }
+        },
+        "empleados": [
+            {
+                "cuil": 27418253906,
+                "dni": 41825390,
+                "apellido": "Gomez",
+                "nombre": "Romina",
+                "fecha_nacimiento": "23/07/1996",
+                "telefono": 1157296698,
+                "localidad": {
+                    "codigo_postal": 1832,
+                    "descripcion": "Lomas de Zamora"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Almafuerte",
+                        "numero": "301",
+                        "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
+                        "depto": false,
+                        "piso": "",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.411735,
+                                -34.754583
+                            ]
+                        }
                     }
-                }
-            ],
-            "fecha_incorporacion": "05/08/2019"
-        }
-    ]
-}
+                ],
+                "fecha_incorporacion": "01/08/2019",
+                "sucursal": "servicio tecnico"
+            },
+            {
+                "cuil": 20453779236,
+                "dni": 45377923,
+                "apellido": "Gutierrez",
+                "nombre": "Juan Martin",
+                "fecha_nacimiento": "19/07/1998",
+                "telefono": 1153492384,
+                "localidad": {
+                    "codigo_postal": 1832,
+                    "descripcion": "Lomas de Zamora"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Juan José Paso",
+                        "numero": "598",
+                        "entre_calles": ["Félix de Azara", "Manuel Castro"],
+                        "depto": true,
+                        "piso": "5A",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.403329,
+                                -34.751760
+                            ]
+                        }
+                    }
+                ],
+                "fecha_incorporacion": "01/09/2018",
+                "sucursal": "servicio tecnico"
+            }
+        ]
+    },
+    {
+        "descripcion": "atencion al cliente",
+        "direccion": {
+            "calle": "Av. Hipolito Yrigoyen",
+            "numero": "3514",
+            "entre_calles": ["Cayena", "Juncal"],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.391009,
+                    -34.696036
+                ]
+            }
+        },
+        "empleados": [
+            {
+                "cuil": 27411429676,
+                "dni": 41142967,
+                "apellido": "Juarez",
+                "nombre": "Maria Julia",
+                "fecha_nacimiento": "19/07/1997",
+                "telefono": 1156284475,
+                "localidad": {
+                    "codigo_postal": 1824,
+                    "descripcion": "Lanús"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Hector Guidi",
+                        "numero": "1187",
+                        "entre_calles": ["Juncal", "Pichincha"],
+                        "depto": false,
+                        "piso": "",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.375020,
+                                -34.707899
+                            ]
+                        }
+                    }
+                ],
+                "fecha_incorporacion": "01/12/2019",
+                "sucursal": "atencion al cliente"
+            },
+            {
+                "cuil": 27483947206,
+                "dni": 48394720,
+                "apellido": "Fernandez",
+                "nombre": "Sofia",
+                "fecha_nacimiento": "11/06/1999",
+                "telefono": 11543871293,
+                "localidad": {
+                    "codigo_postal": 1824,
+                    "descripcion": "Lanús"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Sitio de Montevideo",
+                        "numero": "2621",
+                        "entre_calles": ["Gral Deheza", "Suipacha"],
+                        "depto": false,
+                        "piso": "",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.373395,
+                                -34.717255
+                            ]
+                        }
+                    }
+                ],
+                "fecha_incorporacion": "01/12/2019",
+                "sucursal": "atencion al cliente"
+            }
+        ]
+    },
+    {
+        "descripcion": "servicios financieros",
+        "direccion": {
+            "calle": "Av. Bartolomé Mitre",
+            "numero": "501",
+            "entre_calles": ["Montes de Oca", "French"],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.367828,
+                    -34.660200
+                ]
+            }
+        },
+        "empleados": [
+            {
+                "cuil": 27483947206,
+                "dni": 48394720,
+                "apellido": "Perez",
+                "nombre": "Ludmila",
+                "fecha_nacimiento": "28/01/1995",
+                "telefono": 1153998381,
+                "localidad": {
+                    "codigo_postal": 1870,
+                    "descripcion": "Avellaneda"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Pedro de Mendoza",
+                        "numero": "268",
+                        "entre_calles": ["Juan Bautista Palalá", "Colón"],
+                        "depto": false,
+                        "piso": "",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.368904,
+                                -34.665317
+                            ]
+                        }
+                    }
+                ],
+                "fecha_incorporacion": "01/05/2020",
+                "sucursal": "servicios financieros"
+            },
+            {
+                "cuil": 20390553726,
+                "dni": 39055372,
+                "apellido": "Sanchez",
+                "nombre": "Juan Marcos",
+                "fecha_nacimiento": "07/09/1985",
+                "telefono": 1151773829,
+                "localidad": {
+                    "codigo_postal": 1870,
+                    "descripcion": "Avellaneda"
+                },
+                "domicilio": [
+                    {
+                        "calle": "Estanislao Zeballos",
+                        "numero": "333",
+                        "entre_calles": ["Chacabuco", "Monstes de Oca"],
+                        "depto": false,
+                        "piso": "",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.368904,
+                                -34.665317
+                            ]
+                        }
+                    }
+                ],
+                "fecha_incorporacion": "01/05/2020",
+                "sucursal": "servicios financieros"
+            }
+        ]
+    }
+]

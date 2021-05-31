@@ -1,111 +1,224 @@
-{
-    "numero_reclamo": 100000001,
-    "cliente": {
-        "numero_orden": 1000141234567,
-        "dni": 41234567,
-        "apellido": "Perez",
-        "nombre": "Juan",
-        "fecha_nacimiento": "23/07/1978",
-        "telefono": 1156783972,
-        "localidad": {
-            "codigo_postal": 1832,
-            "descripcion": "Lomas de Zamora"
-        },
-        "domicilio": [
-            {
-                "calle": "Gral. Frías",
-                "numero": "218",
-                "entre_calles": ["Av. Colombres", "Loria"],
-                "depto": false,
-                "piso": "",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -58.42203,
-                        -34.76019
-                    ]
-                }
-            }
-        ],
-        "empleado": false,
-        "fecha_alta_servicio": "01/03/2021",
-        "planes": [
-            {
-                "codigo": 101,
-                "descripcion": "normal",
-                "cantidad_canales": 3,
-                "canales": ["Telefe", "Trece", "Volver"],
-                "fecha_adquisicion": "01/03/2021",
-                "vigente": true
-            }
-        ]
-    },
-    "motivo": {
-        "fecha": "11/05/2021",
-        "hora": "18:30",
-        "problema": "desperfecto",
-        "descripcion": "Lluvia constante"
-    },
-    "derivaciones": [
-        {
-            "sucursal": {
-                "descripcion": "servicio tecnico",
-                "direccion": {
-                    "calle": "Av. Hipolito Yrigoyen",
-                    "numero": "8929",
-                    "entre_calles": ["Laprida", "Mariano Boedo"],
+[
+    {
+        "numero_reclamo": 100000001,
+        "cliente": {
+            "numero_orden": 1000141234567,
+            "dni": 41234567,
+            "apellido": "Perez",
+            "nombre": "Juan",
+            "fecha_nacimiento": "23/07/1978",
+            "telefono": 1156783972,
+            "localidad": {
+                "codigo_postal": 1832,
+                "descripcion": "Lomas de Zamora"
+            },
+            "domicilio": [
+                {
+                    "calle": "Gral. Frías",
+                    "numero": "218",
+                    "entre_calles": ["Av. Colombres", "Loria"],
+                    "depto": false,
+                    "piso": "",
                     "geometry": {
                         "type": "Point",
                         "coordinates": [
-                            -58.40266133373318,
-                            -34.76012237923561
+                            -58.42203,
+                            -34.76019
                         ]
                     }
                 }
-            },
-            "empleado": {
-                "cuil": 20418253906,
-                "dni": 41825390,
-                "apellido": "Gomez",
-                "nombre": "Romina",
-                "fecha_nacimiento": "23/07/1996",
-                "telefono": 1157296698,
-                "localidad": {
-                    "codigo_postal": 1832,
-                    "descripcion": "Lomas de Zamora"
-                },
-                "domicilio": [
-                    {
-                        "calle": "Almafuerte",
-                        "numero": "301",
-                        "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
-                        "depto": false,
-                        "piso": "",
+            ],
+            "empleado": false,
+            "fecha_alta_servicio": "01/03/2021",
+            "planes": [
+                {
+                    "codigo": 101,
+                    "descripcion": "normal",
+                    "cantidad_canales": 3,
+                    "canales": ["Telefe", "Trece", "Volver"],
+                    "fecha_adquisicion": "01/03/2021",
+                    "importe": 100,
+                    "vigente": true
+                }
+            ]
+        },
+        "motivo": {
+            "fecha": "11/05/2021",
+            "hora": "18:30",
+            "razon": "desperfecto",
+            "descripcion": "Lluvia constante"
+        },
+        "derivaciones": [
+            {
+                "sucursal": {
+                    "descripcion": "servicio tecnico",
+                    "direccion": {
+                        "calle": "Av. Hipolito Yrigoyen",
+                        "numero": "8929",
+                        "entre_calles": ["Laprida", "Mariano Boedo"],
                         "geometry": {
                             "type": "Point",
                             "coordinates": [
-                                -58.411735,
-                                -34.754583
+                                -58.402520,
+                                -34.759614
                             ]
                         }
                     }
-                ],
-                "fecha_incorporacion": "05/08/2019"
-            },
-            "soluciones_planteadas": [
-                {
-                    "descripcion":"Apagar y prender la tv",
-                    "funciono": false
                 },
+                "empleado": {
+                    "cuil": 27418253906,
+                    "dni": 41825390,
+                    "apellido": "Gomez",
+                    "nombre": "Romina",
+                    "fecha_nacimiento": "23/07/1996",
+                    "telefono": 1157296698,
+                    "localidad": {
+                        "codigo_postal": 1832,
+                        "descripcion": "Lomas de Zamora"
+                    },
+                    "domicilio": [
+                        {
+                            "calle": "Almafuerte",
+                            "numero": "301",
+                            "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
+                            "depto": false,
+                            "piso": "",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -58.411735,
+                                    -34.754583
+                                ]
+                            }
+                        }
+                    ],
+                    "fecha_incorporacion": "01/08/2019",
+                    "sucursal": "servicio tecnico"
+                },
+                "soluciones_planteadas": [
+                    {
+                        "descripcion":"Apagar y prender la tv",
+                        "funciono": false
+                    },
+                    {
+                        "descripcion":"Revisar si el cable esta bien conectado",
+                        "funciono": true
+                    }
+                ]
+            }
+        ],
+        "estado": {
+            "resuelto": true,
+            "descripcion": "El problema era que estaba mal conectado el cable xd"   
+        }
+    },
+    {
+        "numero_reclamo": 100000002,
+        "cliente": {
+            "numero_orden": 1000149338216,
+            "dni": 49338216,
+            "apellido": "Gomez",
+            "nombre": "Julieta",
+            "fecha_nacimiento": "28/01/1992",
+            "telefono": 1150669377,
+            "localidad": {
+                "codigo_postal": 1870,
+                "descripcion": "Avellaneda"
+            },
+            "domicilio": [
                 {
-                    "descripcion":"Revisar si el cable esta bien conectado",
-                    "funciono": true
+                    "calle": "Gral. Levalle",
+                    "numero": "882",
+                    "entre_calles": ["Almafuerte", "Deán Funes"],
+                    "depto": false,
+                    "piso": "",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -58.361957,
+                            -34.656924
+                        ]
+                    }
+                }
+            ],
+            "empleado": false,
+            "fecha_alta_servicio": "15/02/2021",
+            "planes": [
+                {
+                    "codigo": 102,
+                    "descripcion": "SuperPack1",
+                    "cantidad_canales": 7,
+                    "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica"],
+                    "fecha_adquisicion": "15/02/2021",
+                    "importe": 200,
+                    "vigente": true
                 }
             ]
+        },
+        "motivo": {
+            "fecha": "14/05/2021",
+            "hora": "14:15",
+            "razon": "cambio de plan",
+            "descripcion": "Actualizar a plan SuperPackFull"
+        },
+        "derivaciones": [
+            {
+                "sucursal": {
+                    "descripcion": "atencion al cliente",
+                    "direccion": {
+                        "calle": "Av. Hipolito Yrigoyen",
+                        "numero": "3514",
+                        "entre_calles": ["Cayena", "Juncal"],
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.391009,
+                                -34.696036
+                            ]
+                        }
+                    }
+                },
+                "empleado": {
+                    "cuil": 27483947206,
+                    "dni": 48394720,
+                    "apellido": "Fernandez",
+                    "nombre": "Sofia",
+                    "fecha_nacimiento": "11/06/1999",
+                    "telefono": 11543871293,
+                    "localidad": {
+                        "codigo_postal": 1824,
+                        "descripcion": "Lanús"
+                    },
+                    "domicilio": [
+                        {
+                            "calle": "Sitio de Montevideo",
+                            "numero": "2621",
+                            "entre_calles": ["Gral Deheza", "Suipacha"],
+                            "depto": false,
+                            "piso": "",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -58.373395,
+                                    -34.717255
+                                ]
+                            }
+                        }
+                    ],
+                    "fecha_incorporacion": "01/12/2019",
+                    "sucursal": "atencion al cliente"
+                },
+                "soluciones_planteadas": [
+                    {
+                        "descripcion":"Se le actualizó el plan al cliente.",
+                        "funciono": true
+                    }
+                ]
+            }
+        ],
+        "estado": {
+            "resuelto": true,
+            "descripcion": "Se le actualizó el plan al cliente."   
         }
-    ],
-    "estado": {
-        "resuelto": true,
-        "descripcion": "El problema era que estaba mal conectado el cable xd"    
     }
-}
+]

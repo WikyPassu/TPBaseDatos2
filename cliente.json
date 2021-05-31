@@ -1,40 +1,316 @@
-{
-    "numero_orden": 1000141234567,
-    "dni": 41234567,
-    "apellido": "Perez",
-    "nombre": "Juan",
-    "fecha_nacimiento": "23/07/1978",
-    "telefono": 1156783972,
-    "localidad": {
-        "codigo_postal": 1832,
-        "descripcion": "Lomas de Zamora"
-    },
-    "domicilio": [
-        {
-            "calle": "Gral. Frías",
-            "numero": "218",
-            "entre_calles": ["Av. Colombres", "Loria"],
-            "depto": false,
-            "piso": "",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -58.42203,
-                    -34.76019
-                ]
+[
+    {
+        "numero_orden": 1000141234567,
+        "dni": 41234567,
+        "apellido": "Perez",
+        "nombre": "Juan",
+        "fecha_nacimiento": "23/07/1978",
+        "telefono": 1156783972,
+        "localidad": {
+            "codigo_postal": 1832,
+            "descripcion": "Lomas de Zamora"
+        },
+        "domicilio": [
+            {
+                "calle": "Gral. Frías",
+                "numero": "218",
+                "entre_calles": ["Av. Colombres", "Loria"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.42203,
+                        -34.76019
+                    ]
+                }
             }
-        }
-    ],
-    "empleado": false,
-    "fecha_alta_servicio": "01/03/2021",
-    "planes": [
-        {
-            "codigo": 101,
-            "descripcion": "normal",
-            "cantidad_canales": 3,
-            "canales": ["Telefe", "Trece", "Volver"],
-            "fecha_adquisicion": "01/03/2021",
-            "vigente": true
-        }
-    ]
-}
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "01/03/2021",
+        "planes": [
+            {
+                "codigo": 101,
+                "descripcion": "normal",
+                "cantidad_canales": 3,
+                "canales": ["Telefe", "Trece", "Volver"],
+                "fecha_adquisicion": "01/03/2021",
+                "importe": 100,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000147654321,
+        "dni": 47654321,
+        "apellido": "Lopez",
+        "nombre": "Maria",
+        "fecha_nacimiento": "07/03/1987",
+        "telefono": 1159823748,
+        "localidad": {
+            "codigo_postal": 1832,
+            "descripcion": "Lomas de Zamora"
+        },
+        "domicilio": [
+            {
+                "calle": "Francisco Portela",
+                "numero": "2196",
+                "entre_calles": ["Julio Massenet", "12 de Octubre"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.424703,
+                        -34.753479
+                    ]
+                }
+            }
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "05/08/2017",
+        "planes": [
+            {
+                "codigo": 101,
+                "descripcion": "normal",
+                "cantidad_canales": 3,
+                "canales": ["Telefe", "Trece", "Volver"],
+                "fecha_adquisicion": "05/08/2017",
+                "importe": 100,
+                "vigente": true
+            },
+            {
+                "codigo": 102,
+                "descripcion": "SuperPack1",
+                "cantidad_canales": 7,
+                "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica"],
+                "fecha_adquisicion": "01/02/2018",
+                "importe": 200,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000149871234,
+        "dni": 49871234,
+        "apellido": "Sanchez",
+        "nombre": "Carlos",
+        "fecha_nacimiento": "12/11/1979",
+        "telefono": 1152933821,
+        "localidad": {
+            "codigo_postal": 1834,
+            "descripcion": "Temperley"
+        },
+        "domicilio": [
+            {
+                "calle": "Iberá",
+                "numero": "59",
+                "entre_calles": ["Esmeralda", "Anchorena"],
+                "depto": true,
+                "piso": "2C",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.386664,
+                        -34.768682
+                    ]
+                }
+            }
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "30/06/2020",
+        "planes": [
+            {
+                "codigo": 101,
+                "descripcion": "normal",
+                "cantidad_canales": 3,
+                "canales": ["Telefe", "Trece", "Volver"],
+                "fecha_adquisicion": "30/06/2020",
+                "importe": 100,
+                "vigente": true
+            },
+            {
+                "codigo": 102,
+                "descripcion": "SuperPack1",
+                "cantidad_canales": 7,
+                "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica"],
+                "fecha_adquisicion": "30/06/2020",
+                "importe": 200,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000149338216,
+        "dni": 49338216,
+        "apellido": "Gomez",
+        "nombre": "Julieta",
+        "fecha_nacimiento": "28/01/1992",
+        "telefono": 1150669377,
+        "localidad": {
+            "codigo_postal": 1870,
+            "descripcion": "Avellaneda"
+        },
+        "domicilio": [
+            {
+                "calle": "Gral. Levalle",
+                "numero": "882",
+                "entre_calles": ["Almafuerte", "Deán Funes"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.361957,
+                        -34.656924
+                    ]
+                }
+            }
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "15/02/2021",
+        "planes": [
+            {
+                "codigo": 102,
+                "descripcion": "SuperPack1",
+                "cantidad_canales": 7,
+                "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica"],
+                "fecha_adquisicion": "15/02/2021",
+                "importe": 200,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000139820399,
+        "dni": 39820399,
+        "apellido": "Rodriguez",
+        "nombre": "Jazmin",
+        "fecha_nacimiento": "07/05/2000",
+        "telefono": 1150293381,
+        "localidad": {
+            "codigo_postal": 1870,
+            "descripcion": "Avellaneda"
+        },
+        "domicilio": [
+            {
+                "calle": "España",
+                "numero": "381",
+                "entre_calles": ["Monteseñor M. de Andrea", "Colón"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.372618,
+                        -34.662882
+                    ]
+                }
+            }
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "20/10/2020",
+        "planes": [
+            {
+                "codigo": 101,
+                "descripcion": "normal",
+                "cantidad_canales": 3,
+                "canales": ["Telefe", "Trece", "Volver"],
+                "fecha_adquisicion": "01/03/2021",
+                "importe": 100,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000149338216,
+        "dni": 49338216,
+        "apellido": "Gonzalez",
+        "nombre": "Julieta",
+        "fecha_nacimiento": "17/12/1995",
+        "telefono": 1157640216,
+        "localidad": {
+            "codigo_postal": 1824,
+            "descripcion": "Lanús"
+        },
+        "domicilio": [
+            {
+                "calle": "Manuela Pedraza",
+                "numero": "1732",
+                "entre_calles": ["La Rioja", "Santiago Plaul"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.412428,
+                        -34.694172
+                    ]
+                }
+            }
+        ],
+        "empleado": false,
+        "fecha_alta_servicio": "15/02/2021",
+        "planes": [
+            {
+                "codigo": 103,
+                "descripcion": "SuperPackFull",
+                "cantidad_canales": 10,
+                "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica", "C5N", "La Nacion +", "Cartoon Network HD"],
+                "fecha_adquisicion": "15/02/2021",
+                "importe": 300,
+                "vigente": true
+            }
+        ]
+    },
+    {
+        "numero_orden": 1000141825390,
+        "dni": 41825390,
+        "apellido": "Gomez",
+        "nombre": "Romina",
+        "fecha_nacimiento": "23/07/1996",
+        "telefono": 1157296698,
+        "localidad": {
+            "codigo_postal": 1832,
+            "descripcion": "Lomas de Zamora"
+        },
+        "domicilio": [
+            {
+                "calle": "Almafuerte",
+                "numero": "301",
+                "entre_calles": ["Predo Ignacio Rivera", "Francisco Portela"],
+                "depto": false,
+                "piso": "",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -58.411735,
+                        -34.754583
+                    ]
+                }
+            }
+        ],
+        "empleado": true,
+        "fecha_alta_servicio": "14/01/2017",
+        "planes": [
+            {
+                "codigo": 101,
+                "descripcion": "normal",
+                "cantidad_canales": 3,
+                "canales": ["Telefe", "Trece", "Volver"],
+                "fecha_adquisicion": "14/01/2017",
+                "importe": 100,
+                "vigente": true
+            },
+            {
+                "codigo": 103,
+                "descripcion": "SuperPackFull",
+                "cantidad_canales": 10,
+                "canales": ["Telefe", "Trece", "Volver", "AMERICA", "elnueve", "TV Publica", "Crónica", "C5N", "La Nacion +", "Cartoon Network HD"],
+                "fecha_adquisicion": "05/08/2019",
+                "importe": 300,
+                "vigente": true
+            }
+        ]
+    }
+]
