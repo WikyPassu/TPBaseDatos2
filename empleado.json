@@ -1,6 +1,6 @@
 [
     {
-        "cuil": 27418253906,
+        "cuil": 27418253902,
         "dni": 41825390,
         "apellido": "Gomez",
         "nombre": "Romina",
@@ -27,7 +27,7 @@
             }
         ],
         "fecha_incorporacion": "01/08/2019",
-        "sucursal": "soporte tecnico"
+        "sucursal": "servicio tecnico"
     },
     {
         "cuil": 20453779236,
@@ -57,10 +57,10 @@
             }
         ],
         "fecha_incorporacion": "01/09/2018",
-        "sucursal": "soporte tecnico"
+        "sucursal": "servicio tecnico"
     },
     {
-        "cuil": 27411429676,
+        "cuil": 27411429672,
         "dni": 41142967,
         "apellido": "Juarez",
         "nombre": "Maria Julia",
@@ -90,7 +90,7 @@
         "sucursal": "atencion al cliente"
     },
     {
-        "cuil": 27483947206,
+        "cuil": 27483947202,
         "dni": 48394720,
         "apellido": "Fernandez",
         "nombre": "Sofia",
@@ -120,7 +120,7 @@
         "sucursal": "atencion al cliente"
     },
     {
-        "cuil": 27483947206,
+        "cuil": 27483947202,
         "dni": 48394720,
         "apellido": "Perez",
         "nombre": "Ludmila",

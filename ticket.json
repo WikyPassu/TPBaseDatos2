@@ -44,7 +44,10 @@
         },
         "motivo": {
             "fecha": "11/05/2021",
-            "hora": "18:30",
+            "horario": {
+                "horas": 18,
+                "minutos": 30
+            },
             "razon": "desperfecto",
             "descripcion": "Lluvia constante"
         },
@@ -52,6 +55,10 @@
             {
                 "sucursal": {
                     "descripcion": "servicio tecnico",
+                    "localidad": {
+                        "codigo_postal": 1832,
+                        "descripcion": "Lomas de Zamora"
+                    },
                     "direccion": {
                         "calle": "Av. Hipolito Yrigoyen",
                         "numero": "8929",
@@ -66,7 +73,7 @@
                     }
                 },
                 "empleado": {
-                    "cuil": 27418253906,
+                    "cuil": 27418253902,
                     "dni": 41825390,
                     "apellido": "Gomez",
                     "nombre": "Romina",
@@ -97,17 +104,18 @@
                 },
                 "soluciones_planteadas": [
                     {
-                        "descripcion":"Apagar y prender la tv",
-                        "funciono": false
+                        "descripcion": "Apagar y prender la tv",
+                        "resultado": "Persiste el problema"
                     },
                     {
-                        "descripcion":"Revisar si el cable esta bien conectado",
-                        "funciono": true
+                        "descripcion": "Revisar si el cable esta bien conectado",
+                        "resultado": "Problema solucionado"
                     }
                 ]
             }
         ],
         "estado": {
+            "actual": "Resuelto",
             "resuelto": true,
             "descripcion": "El problema era que estaba mal conectado el cable xd"   
         }
@@ -157,7 +165,10 @@
         },
         "motivo": {
             "fecha": "14/05/2021",
-            "hora": "14:15",
+            "horario": {
+                "horas": 14,
+                "minutos": 15
+            },
             "razon": "cambio de plan",
             "descripcion": "Actualizar a plan SuperPackFull"
         },
@@ -165,6 +176,10 @@
             {
                 "sucursal": {
                     "descripcion": "atencion al cliente",
+                    "localidad": {
+                        "codigo_postal": 1824,
+                        "descripcion": "Lanus"
+                    },
                     "direccion": {
                         "calle": "Av. Hipolito Yrigoyen",
                         "numero": "3514",
@@ -179,7 +194,7 @@
                     }
                 },
                 "empleado": {
-                    "cuil": 27483947206,
+                    "cuil": 27483947202,
                     "dni": 48394720,
                     "apellido": "Fernandez",
                     "nombre": "Sofia",
@@ -210,15 +225,198 @@
                 },
                 "soluciones_planteadas": [
                     {
-                        "descripcion":"Se le actualizó el plan al cliente.",
-                        "funciono": true
+                        "descripcion": "Se le actualizó el plan al cliente.",
+                        "resultado": "Plan actualizado"
                     }
                 ]
             }
         ],
         "estado": {
+            "actual": "Resuelto",
             "resuelto": true,
             "descripcion": "Se le actualizó el plan al cliente."   
+        }
+    },
+    {
+        "numero_reclamo": 100000003,
+        "cliente": {
+            "numero_orden": 1000139820399,
+            "dni": 39820399,
+            "apellido": "Rodriguez",
+            "nombre": "Jazmin",
+            "fecha_nacimiento": "07/05/2000",
+            "telefono": 1150293381,
+            "localidad": {
+                "codigo_postal": 1870,
+                "descripcion": "Avellaneda"
+            },
+            "domicilio": [
+                {
+                    "calle": "España",
+                    "numero": "381",
+                    "entre_calles": ["Monteseñor M. de Andrea", "Colón"],
+                    "depto": false,
+                    "piso": "",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            -58.372618,
+                            -34.662882
+                        ]
+                    }
+                }
+            ],
+            "empleado": false,
+            "fecha_alta_servicio": "20/10/2020",
+            "planes": [
+                {
+                    "codigo": 101,
+                    "descripcion": "normal",
+                    "cantidad_canales": 3,
+                    "canales": ["Telefe", "Trece", "Volver"],
+                    "fecha_adquisicion": "01/03/2021",
+                    "importe": 100,
+                    "vigente": true
+                }
+            ]
+        },
+        "motivo": {
+            "fecha": "08/12/2020",
+            "horario": {
+                "horas": 18,
+                "minutos": 47
+            },
+            "razon": "desperfecto",
+            "descripcion": "Sin servicio"
+        },
+        "derivaciones": [
+            {
+                "sucursal": {
+                    "descripcion": "atencion al cliente",
+                    "localidad": {
+                        "codigo_postal": 1824,
+                        "descripcion": "Lanus"
+                    },
+                    "direccion": {
+                        "calle": "Av. Hipolito Yrigoyen",
+                        "numero": "3514",
+                        "entre_calles": ["Cayena", "Juncal"],
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.391009,
+                                -34.696036
+                            ]
+                        }
+                    }
+                },
+                "empleado": {
+                    "cuil": 27411429672,
+                    "dni": 41142967,
+                    "apellido": "Juarez",
+                    "nombre": "Maria Julia",
+                    "fecha_nacimiento": "19/07/1997",
+                    "telefono": 1156284475,
+                    "localidad": {
+                        "codigo_postal": 1824,
+                        "descripcion": "Lanús"
+                    },
+                    "domicilio": [
+                        {
+                            "calle": "Hector Guidi",
+                            "numero": "1187",
+                            "entre_calles": ["Juncal", "Pichincha"],
+                            "depto": false,
+                            "piso": "",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -58.375020,
+                                    -34.707899
+                                ]
+                            }
+                        }
+                    ],
+                    "fecha_incorporacion": "01/12/2019",
+                    "sucursal": "atencion al cliente"
+                },
+                "soluciones_planteadas": [
+                    {
+                        "descripcion": "Se deriva a la sucursal de servicio tecnico.",
+                        "resultado": "El cliente espera en linea."
+                    }
+                ]
+            },
+            {
+                "sucursal": {
+                    "descripcion": "servicio tecnico",
+                    "localidad": {
+                        "codigo_postal": 1832,
+                        "descripcion": "Lomas de Zamora"
+                    },
+                    "direccion": {
+                        "calle": "Av. Hipolito Yrigoyen",
+                        "numero": "8929",
+                        "entre_calles": ["Laprida", "Mariano Boedo"],
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -58.402520,
+                                -34.759614
+                            ]
+                        }
+                    }
+                },
+                "empleado": {
+                    "cuil": 20453779236,
+                    "dni": 45377923,
+                    "apellido": "Gutierrez",
+                    "nombre": "Juan Martin",
+                    "fecha_nacimiento": "19/07/1998",
+                    "telefono": 1153492384,
+                    "localidad": {
+                        "codigo_postal": 1832,
+                        "descripcion": "Lomas de Zamora"
+                    },
+                    "domicilio": [
+                        {
+                            "calle": "Juan José Paso",
+                            "numero": "598",
+                            "entre_calles": ["Félix de Azara", "Manuel Castro"],
+                            "depto": true,
+                            "piso": "5A",
+                            "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -58.403329,
+                                    -34.751760
+                                ]
+                            }
+                        }
+                    ],
+                    "fecha_incorporacion": "01/09/2018",
+                    "sucursal": "servicio tecnico"
+                },
+                "soluciones_planteadas": [
+                    {
+                        "descripcion": "Apagar y prender la tv",
+                        "resultado": "Persiste el problema"
+                    },
+                    {
+                        "descripcion": "Revisar si el cable esta bien conectado",
+                        "resultado": "Persiste el problema"
+                    },
+                    {
+                        "descripcion": "Se programa una visita con un tecnico",
+                        "resultado": "El cliente espera una visita del tecnico"
+                    }
+                ]
+            }
+        ],
+        "estado": {
+            "actual": "Pendiente",
+            "resuelto": false,
+            "descripcion": "El cliente tiene pactada una visita programada con un tecnico."   
         }
     }
 ]

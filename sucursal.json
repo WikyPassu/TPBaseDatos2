@@ -1,6 +1,10 @@
 [
     {
         "descripcion": "servicio tecnico",
+        "localidad": {
+            "codigo_postal": 1832,
+            "descripcion": "Lomas de Zamora"
+        },
         "direccion": {
             "calle": "Av. Hipolito Yrigoyen",
             "numero": "8929",
@@ -78,6 +82,10 @@
     },
     {
         "descripcion": "atencion al cliente",
+        "localidad": {
+            "codigo_postal": 1824,
+            "descripcion": "Lanus"
+        },
         "direccion": {
             "calle": "Av. Hipolito Yrigoyen",
             "numero": "3514",
@@ -155,6 +163,10 @@
     },
     {
         "descripcion": "servicios financieros",
+        "localidad": {
+            "codigo_postal": 1870,
+            "descripcion": "Avellaneda"
+        },
         "direccion": {
             "calle": "Av. Bartolomé Mitre",
             "numero": "501",
