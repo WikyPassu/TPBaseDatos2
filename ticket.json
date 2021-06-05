@@ -1,6 +1,24 @@
 [
     {
         "numero_reclamo": 100000001,
+        "localidad": {
+            "codigo_postal": 1832,
+            "descripcion": "Lomas de Zamora"
+        },
+        "domicilio": {
+            "calle": "Gral. Frías",
+            "numero": "218",
+            "entre_calles": ["Av. Colombres", "Loria"],
+            "depto": false,
+            "piso": "",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.42203,
+                    -34.76019
+                ]
+            }
+        },
         "cliente": {
             "numero_orden": 1000141234567,
             "dni": 41234567,
@@ -122,6 +140,24 @@
     },
     {
         "numero_reclamo": 100000002,
+        "localidad": {
+            "codigo_postal": 1870,
+            "descripcion": "Avellaneda"
+        },
+        "domicilio": {
+            "calle": "Gral. Levalle",
+            "numero": "882",
+            "entre_calles": ["Almafuerte", "Deán Funes"],
+            "depto": false,
+            "piso": "",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.361957,
+                    -34.656924
+                ]
+            }
+        },
         "cliente": {
             "numero_orden": 1000149338216,
             "dni": 49338216,
@@ -239,6 +275,24 @@
     },
     {
         "numero_reclamo": 100000003,
+        "localidad": {
+            "codigo_postal": 1870,
+            "descripcion": "Avellaneda"
+        },
+        "domicilio": {
+            "calle": "España",
+            "numero": "381",
+            "entre_calles": ["Monteseñor M. de Andrea", "Colón"],
+            "depto": false,
+            "piso": "",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.372618,
+                    -34.662882
+                ]
+            }
+        },
         "cliente": {
             "numero_orden": 1000139820399,
             "dni": 39820399,
