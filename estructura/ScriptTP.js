@@ -1,5 +1,5 @@
-conn = new Mongo();
-db = conn.getDB("ticketera");
+//conn = new Mongo();
+//db = conn.getDB("ticketera");
 
 //Todos los desperfectos, con descripcion, fecha, hora y localidad:
 /*db.tickets.aggregate([
