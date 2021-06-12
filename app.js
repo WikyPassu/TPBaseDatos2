@@ -1,9 +1,9 @@
-const express = require("express");
-const morgan = require("morgan");
-const path = require("path");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-const db = require("./models/db");
+const express = require('express');
+const morgan = require('morgan');
+const path = require('path');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const db = require('./models/db');
 
 // Init DB
 db.connect((err) => {
@@ -11,7 +11,7 @@ db.connect((err) => {
         console.log(err);
         process.exit(1);
     }
-    console.log("MongoDB Conectado");
+    console.log('MongoDB Conectado');
 })
 
 // Cors config
@@ -23,14 +23,16 @@ const corsOptions = {
 const app = express();
 
 // Middleware for logged requests in console
-app.use(morgan("tiny"));
+app.use(morgan('tiny'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors(corsOptions));
 
 // Routes
-app.use("/", require("./routes/index"));
-app.use("/desperfectos", require("./routes/ticket"));
+app.use('/', require('./routes/index'));
+app.use('/ticket', require('./routes/ticket'));
+app.use('/cliente', require('./routes/cliente'));
 
+// Port
 const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`App up en puerto ${port}.`));
+app.listen(port, () => console.log(`App activa en el puerto ${port}`));
