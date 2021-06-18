@@ -32,6 +32,8 @@ app.use(cors(corsOptions));
 app.use('/', require('./routes/index'));
 app.use('/ticket', require('./routes/ticket'));
 app.use('/cliente', require('./routes/cliente'));
+app.use('/empleado', require('./routes/empleado'));
+app.use('/sucursal', require('./routes/sucursal'));
 
 // Port
 const port = process.env.PORT || 8080;
